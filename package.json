@@ -1,7 +1,7 @@
 {
   "name": "seedance-video-skill",
   "version": "1.0.0",
-  "description": "A Claude Code skill for generating videos using Seedance (ByteDance) via Atlas Cloud API",
+  "description": "An open AI agent skill for generating videos using Seedance (ByteDance) via Atlas Cloud API — works with Claude Code, Cursor, Codex, Copilot, Gemini CLI, Windsurf, Kiro, and more",
   "main": "src/cli.ts",
   "bin": {
     "seedance-video": "./src/cli.ts"
@@ -16,7 +16,15 @@
     "ai",
     "text-to-video",
     "image-to-video",
+    "agent-skill",
     "claude-code",
+    "cursor",
+    "codex",
+    "copilot",
+    "gemini-cli",
+    "windsurf",
+    "opencode",
+    "kiro",
     "skill",
     "atlas-cloud"
   ],

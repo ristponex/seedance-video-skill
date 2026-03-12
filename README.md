@@ -2,13 +2,13 @@
 
 # Seedance Video Skill
 
-**A Claude Code skill for generating videos using Seedance (ByteDance) via Atlas Cloud API**
+**An open AI agent skill for generating videos using Seedance (ByteDance) via Atlas Cloud API**
 
 [![npm version](https://img.shields.io/npm/v/seedance-video-skill.svg)](https://www.npmjs.com/package/seedance-video-skill)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Stars](https://img.shields.io/github/stars/thoughtincode/seedance-video-skill?style=social)](https://github.com/thoughtincode/seedance-video-skill)
 
-Generate high-quality AI videos directly from your terminal or through Claude Code natural language commands. Powered by ByteDance's Seedance video generation models with native audio support, accessible through Atlas Cloud's unified API.
+Generate high-quality AI videos directly from your terminal or through AI coding agents (Claude Code, Cursor, Codex, Copilot, Gemini CLI, Windsurf, Kiro, and more). Powered by ByteDance's Seedance video generation models with native audio support, accessible through Atlas Cloud's unified API.
 
 </div>
 
@@ -19,7 +19,7 @@ Generate high-quality AI videos directly from your terminal or through Claude Co
 - [Features](#features)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Claude Code Integration](#claude-code-integration)
+- [Agent Skill Integration](#agent-skill-integration)
 - [CLI Usage](#cli-usage)
 - [Model Variants](#model-variants)
 - [Options Reference](#options-reference)
@@ -42,7 +42,7 @@ Generate high-quality AI videos directly from your terminal or through Claude Co
 - **Camera Control** — Specify camera angles, movements (dolly, pan, tilt, zoom)
 - **Fast Variants** — Quick preview generation with fast model variants
 - **Flexible Duration** — Generate 5, 10, or 15-second video clips
-- **Claude Code Skill** — Seamless integration with Claude Code via `/init` for natural language video generation
+- **Agent Skill** — Works with 15+ AI coding agents including Claude Code, Cursor, OpenAI Codex, GitHub Copilot, Gemini CLI, Windsurf, OpenCode, Kiro, and more
 
 ---
 
@@ -90,14 +90,20 @@ ATLASCLOUD_API_KEY=your_api_key_here
 
 ---
 
-## Claude Code Integration
+## Agent Skill Integration
 
-This repository is designed to work as a **Claude Code skill**. After cloning, run `/init` in Claude Code to load the skill from `CLAUDE.md`.
+This repository is designed to work as an **open agent skill** compatible with 15+ AI coding agents. Install it with a single command that works across all supported platforms:
+
+```bash
+npx skills add seedance-video-skill
+```
+
+Or manually clone and set up:
 
 ### How It Works
 
 1. Clone this repo and run `bun link`
-2. In Claude Code, run `/init` to load the skill
+2. Load the skill in your AI coding agent (e.g., `/init` in Claude Code, or the equivalent in Cursor, Codex, Copilot, Gemini CLI, Windsurf, Kiro, etc.)
 3. Use natural language to generate videos:
 
 ```
@@ -112,7 +118,7 @@ This repository is designed to work as a **Claude Code skill**. After cloning, r
 "Make a 15-second cinematic video of a futuristic cityscape using Seedance v1.5 Pro"
 ```
 
-Claude Code will automatically construct and execute the appropriate `seedance-video` CLI command based on your natural language request.
+Your AI coding agent will automatically construct and execute the appropriate `seedance-video` CLI command based on your natural language request.
 
 ---
 
@@ -529,6 +535,6 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 <div align="center">
 
-**Built for the Claude Code ecosystem. Powered by [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683).**
+**Built for the open agent skills ecosystem — works with Claude Code, Cursor, Codex, Copilot, Gemini CLI, Windsurf, OpenCode, Kiro, and 15+ AI coding agents. Powered by [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683).**
 
 </div>
