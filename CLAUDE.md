@@ -34,13 +34,13 @@ seedance-video "<prompt>" [options]
 ## Models
 
 ### Text-to-Video
-- `bytedance/seedance-v1.5-pro/text-to-video` — Best quality ($0.222/s)
+- `bytedance/seedance-v1.5-pro/text-to-video` — Best quality ($0.044/s)
 - `bytedance/seedance-v1.5-pro-fast/text-to-video` — Fast preview ($0.111/s)
 - `bytedance/seedance-v1-pro/text-to-video` — Proven ($0.186/s)
 - `bytedance/seedance-v1-lite/text-to-video` — Budget ($0.093/s)
 
 ### Image-to-Video
-- `bytedance/seedance-v1.5-pro/image-to-video` — Best quality ($0.222/s)
+- `bytedance/seedance-v1.5-pro/image-to-video` — Best quality ($0.044/s)
 - `bytedance/seedance-v1.5-pro-fast/image-to-video` — Fast preview ($0.111/s)
 - `bytedance/seedance-v1-pro/image-to-video` — Proven ($0.186/s)
 - `bytedance/seedance-v1-lite/image-to-video` — Budget ($0.093/s)
