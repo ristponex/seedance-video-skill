@@ -178,21 +178,21 @@ seedance-video "A puppy chasing butterflies in a meadow" \
 
 Seedance offers multiple model variants through Atlas Cloud, each optimized for different use cases:
 
-| Model | Model ID | Price per Request | Speed | Quality | Best For |
-|-------|----------|------------------|-------|---------|----------|
-| **Seedance v1.5 Pro** | `bytedance/seedance-v1.5-pro/text-to-video` | $0.222 | Medium | Highest | Production-quality videos, best motion |
-| **Seedance v1.5 Pro Fast** | `bytedance/seedance-v1.5-pro-fast/text-to-video` | $0.111 | Fast | High | Quick iterations, previews |
-| **Seedance v1 Pro** | `bytedance/seedance-v1-pro/text-to-video` | $0.186 | Medium | Very High | Proven reliability |
-| **Seedance v1 Lite** | `bytedance/seedance-v1-lite/text-to-video` | $0.093 | Very Fast | Good | Budget-friendly, rapid prototyping |
+| Model | Model ID | Starting Price per Second | Speed | Quality | Best For |
+|-------|----------|--------------------------|-------|---------|----------|
+| **Seedance v1.5 Pro** | `bytedance/seedance-v1.5-pro/text-to-video` | from $0.222/s | Medium | Highest | Production-quality videos, best motion |
+| **Seedance v1.5 Pro Fast** | `bytedance/seedance-v1.5-pro-fast/text-to-video` | from $0.111/s | Fast | High | Quick iterations, previews |
+| **Seedance v1 Pro** | `bytedance/seedance-v1-pro/text-to-video` | from $0.186/s | Medium | Very High | Proven reliability |
+| **Seedance v1 Lite** | `bytedance/seedance-v1-lite/text-to-video` | from $0.093/s | Very Fast | Good | Budget-friendly, rapid prototyping |
 
 ### Image-to-Video Variants
 
-| Model | Model ID | Price per Request |
-|-------|----------|------------------|
-| **Seedance v1.5 Pro i2v** | `bytedance/seedance-v1.5-pro/image-to-video` | $0.222 |
-| **Seedance v1.5 Pro Fast i2v** | `bytedance/seedance-v1.5-pro-fast/image-to-video` | $0.111 |
-| **Seedance v1 Pro i2v** | `bytedance/seedance-v1-pro/image-to-video` | $0.186 |
-| **Seedance v1 Lite i2v** | `bytedance/seedance-v1-lite/image-to-video` | $0.093 |
+| Model | Model ID | Starting Price per Second |
+|-------|----------|--------------------------|
+| **Seedance v1.5 Pro i2v** | `bytedance/seedance-v1.5-pro/image-to-video` | from $0.222/s |
+| **Seedance v1.5 Pro Fast i2v** | `bytedance/seedance-v1.5-pro-fast/image-to-video` | from $0.111/s |
+| **Seedance v1 Pro i2v** | `bytedance/seedance-v1-pro/image-to-video` | from $0.186/s |
+| **Seedance v1 Lite i2v** | `bytedance/seedance-v1-lite/image-to-video` | from $0.093/s |
 
 > **Default model:** `bytedance/seedance-v1.5-pro/text-to-video`
 
@@ -423,12 +423,14 @@ done
 
 ### Seedance on Atlas Cloud
 
-| Model Variant | Price per Request | Duration | Resolution |
-|--------------|-------------------|----------|------------|
-| Seedance v1.5 Pro | **$0.222** | 5-15s | Up to 1080p |
-| Seedance v1.5 Pro Fast | $0.111 | 5-10s | Up to 1080p |
-| Seedance v1 Pro | $0.186 | 5-10s | Up to 1080p |
-| Seedance v1 Lite | $0.093 | 5s | Up to 720p |
+| Model Variant | Starting Price per Second | Duration | Resolution |
+|--------------|--------------------------|----------|------------|
+| Seedance v1.5 Pro | **from $0.222/s** | 5-15s | Up to 1080p |
+| Seedance v1.5 Pro Fast | from $0.111/s | 5-10s | Up to 1080p |
+| Seedance v1 Pro | from $0.186/s | 5-10s | Up to 1080p |
+| Seedance v1 Lite | from $0.093/s | 5s | Up to 720p |
+
+*Prices shown are starting prices. Higher resolution or longer duration may cost more.*
 
 ### Volume Estimates
 
@@ -444,10 +446,10 @@ Atlas Cloud offers a **25% bonus on your first recharge** (up to $100 bonus):
 
 | Top-Up | Bonus (25%) | Total Credits | Effective Rate (v1.5 Pro) |
 |--------|-------------|---------------|--------------------------|
-| $10 | $2.50 | $12.50 | $0.178/video |
-| $50 | $12.50 | $62.50 | $0.178/video |
-| $100 | $25.00 | $125.00 | $0.178/video |
-| $400 | $100.00 | $500.00 | $0.178/video |
+| $10 | $2.50 | $12.50 | from $0.178/s |
+| $50 | $12.50 | $62.50 | from $0.178/s |
+| $100 | $25.00 | $125.00 | from $0.178/s |
+| $400 | $100.00 | $500.00 | from $0.178/s |
 
 ---
 
@@ -455,7 +457,7 @@ Atlas Cloud offers a **25% bonus on your first recharge** (up to $100 bonus):
 
 This workflow is optimized for Atlas Cloud. Move from experiment to enterprise-ready scale.
 
-- **Production-Ready**: All Seedance model variants, $0.222/video
+- **Production-Ready**: All Seedance model variants, from $0.222/s
 - **Enterprise Security**: SOC I & II Certified | HIPAA Compliant
 - **Zero Maintenance**: Serverless architecture — focus on your product, not the servers
 - **25% Bonus**: First recharge bonus up to $100

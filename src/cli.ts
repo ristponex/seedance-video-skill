@@ -164,10 +164,10 @@ Examples:
   seedance-video "City at night" --duration 15 --audio
 
 Models:
-  bytedance/seedance-v1.5-pro/text-to-video       $0.222/req (default)
-  bytedance/seedance-v1.5-pro-fast/text-to-video   $0.111/req
-  bytedance/seedance-v1-pro/text-to-video          $0.186/req
-  bytedance/seedance-v1-lite/text-to-video         $0.093/req
+  bytedance/seedance-v1.5-pro/text-to-video       from $0.222/s (default)
+  bytedance/seedance-v1.5-pro-fast/text-to-video   from $0.111/s
+  bytedance/seedance-v1-pro/text-to-video          from $0.186/s
+  bytedance/seedance-v1-lite/text-to-video         from $0.093/s
   `);
 }
 
