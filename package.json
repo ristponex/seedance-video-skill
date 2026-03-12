@@ -1,0 +1,29 @@
+{
+  "name": "seedance-video-skill",
+  "version": "1.0.0",
+  "description": "A Claude Code skill for generating videos using Seedance (ByteDance) via Atlas Cloud API",
+  "main": "src/cli.ts",
+  "bin": {
+    "seedance-video": "./src/cli.ts"
+  },
+  "scripts": {
+    "start": "bun src/cli.ts"
+  },
+  "keywords": [
+    "seedance",
+    "bytedance",
+    "video",
+    "ai",
+    "text-to-video",
+    "image-to-video",
+    "claude-code",
+    "skill",
+    "atlas-cloud"
+  ],
+  "author": "thoughtincode",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thoughtincode/seedance-video-skill.git"
+  }
+}

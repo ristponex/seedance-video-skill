@@ -1,0 +1,5 @@
+node_modules/
+.env
+*.mp4
+output/
+.DS_Store
