@@ -49,7 +49,7 @@ Generate high-quality AI videos directly from your terminal or through AI coding
 ## Prerequisites
 
 - [Bun](https://bun.sh/) runtime (v1.0+)
-- An [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) API key
+- An [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=seedance-video-skill) API key
 
 ---
 
@@ -462,7 +462,7 @@ This workflow is optimized for Atlas Cloud. Move from experiment to enterprise-r
 - **Zero Maintenance**: Serverless architecture — focus on your product, not the servers
 - **25% Bonus**: First recharge bonus up to $100
 
-[Start Building](https://www.atlascloud.ai?ref=JPM683)
+[Start Building](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=seedance-video-skill)
 
 ---
 
@@ -537,6 +537,6 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 <div align="center">
 
-**Built for the open agent skills ecosystem — works with Claude Code, Cursor, Codex, Copilot, Gemini CLI, Windsurf, OpenCode, Kiro, and 15+ AI coding agents. Powered by [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683).**
+**Built for the open agent skills ecosystem — works with Claude Code, Cursor, Codex, Copilot, Gemini CLI, Windsurf, OpenCode, Kiro, and 15+ AI coding agents. Powered by [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=seedance-video-skill).**
 
 </div>
